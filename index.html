@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Erick Carvallo — Engineering Leadership</title>
+<meta name="description" content="Erick Carvallo on engineering leadership, platforms for critical systems, and how teams use AI to build software.">
+<style>
+:root{color-scheme:light;--paper:#f5f3ee;--ink:#132b30;--muted:#485b5e;--accent:#075f52;--line:#bcc8c1;--light:#e7eee7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1.0625rem/1.65 system-ui,sans-serif}
+.wrap{width:min(100% - 3rem,70rem);margin-inline:auto}
+a{color:var(--accent);text-underline-offset:.22em}
+a:hover{text-decoration-thickness:.16em}
+:focus-visible{outline:3px solid #a74418;outline-offset:5px}
+header{border-bottom:1px solid var(--line)}
+.bar,nav,.links{display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap}
+.bar{justify-content:space-between;padding-block:1.25rem}
+.bar a{text-decoration:none;font-size:.95rem}
+.name{font-weight:750;color:var(--ink)}
+.hero{padding-block:clamp(4rem,10vw,8rem);display:grid;grid-template-columns:minmax(0,1fr) minmax(13rem,17rem);gap:clamp(2rem,7vw,6rem);align-items:end}
+.eyebrow{color:var(--accent);font-weight:700;font-size:.9rem;letter-spacing:.05em;margin:0 0 .8rem}
+h1,h2,h3{line-height:1.08;margin:0;letter-spacing:-.035em}
+h1,h2{font-family:Georgia,serif;font-weight:500}
+h1{font-size:clamp(2.85rem,6.8vw,5.8rem);max-width:15ch}
+h2{font-size:clamp(2rem,4vw,3.3rem)}
+h3{font-size:clamp(1.35rem,2.8vw,1.85rem)}
+p{margin:.75rem 0 0}
+.lead{font-size:clamp(1.1rem,2vw,1.28rem);max-width:53ch;color:var(--muted);margin:1.35rem 0 1.8rem}
+.action{display:inline-block;background:var(--ink);color:white;text-decoration:none;padding:.62rem 1rem;border-radius:.25rem;font-size:1rem}
+.action:hover{background:var(--accent)}
+.side{border-left:1px solid var(--line);padding-left:1.2rem;color:var(--muted)}
+.side strong{display:block;color:var(--ink)}
+.side p+p{margin-top:1.25rem}
+.work{background:var(--light);border-block:1px solid var(--line)}
+section:not(.hero){padding-block:clamp(2.8rem,6vw,5rem)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(1.5rem,5vw,4rem);margin-top:2rem}
+article{border-top:1px solid var(--line);padding-top:1.35rem}
+article p,.bio p,footer p{color:var(--muted)}
+details{margin-top:1rem}
+summary{width:fit-content;cursor:pointer;color:var(--accent);font-weight:650}
+dl{margin:.85rem 0 0}
+dt{font-weight:700;margin-top:.75rem}
+dd{margin:0;color:var(--muted)}
+.bio{max-width:69ch}
+footer{border-top:1px solid var(--line);padding-block:2rem 2.6rem}
+.links{margin-top:.8rem}
+.skip{position:absolute;left:1rem;top:1rem;transform:translateY(-250%);background:var(--paper);padding:.5rem}
+.skip:focus{transform:none}
+@media(max-width:650px){.hero,.grid{grid-template-columns:1fr}.hero{padding-block:3rem}.side{display:flex;gap:1rem 2rem;flex-wrap:wrap}.side p+p{margin-top:.75rem}}
+@media(max-width:385px){.wrap{width:calc(100% - 2rem)}nav{gap:.9rem}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="wrap bar">
+    <a class="name" href="./">Erick Carvallo</a>
+    <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+<main id="main">
+  <section class="wrap hero" aria-labelledby="intro-title">
+    <div>
+      <h1 id="intro-title">I build teams that can make good technical decisions.</h1>
+      <p class="lead">I’m Erick Carvallo, an engineering leader working across platforms, payments, and how teams use AI to build software.</p>
+      <a class="action" href="#work">Explore my work</a>
+    </div>
+    <aside class="side" aria-label="Location and focus">
+      <p><strong>Based in</strong>Santiago, Chile</p>
+      <p><strong>Current focus</strong>Core payments and AI-assisted software delivery</p>
+    </aside>
+  </section>
+  <section class="work" id="work" aria-labelledby="work-title">
+    <div class="wrap">
+      <h2 id="work-title">Selected work</h2>
+      <div class="grid">
+        <article>
+          <p class="eyebrow">Falabella Financiero · Leadership case</p>
+          <h3>Making team capacity visible</h3>
+          <p>I worked with four tech leads to make operational workload, platform ownership, and roadmap capacity visible across payments, insurance, and digital banking.</p>
+          <details>
+            <summary>Read the case</summary>
+            <dl>
+              <dt>What was at stake</dt>
+              <dd>Teams had to keep critical services running while making time to improve them.</dd>
+              <dt>What I changed</dt>
+              <dd>We put operational workload, ownership, and planned work into the same operating model so leads could bring shared evidence into prioritization discussions.</dd>
+              <dt>What it enabled</dt>
+              <dd>Leads and stakeholders could discuss capacity constraints and delivery priorities using the same information.</dd>
+            </dl>
+          </details>
+        </article>
+        <article>
+          <p class="eyebrow">Personal project · Concept design</p>
+          <h3>Reviewing what software agents produce</h3>
+          <p>I’m exploring how product requirements, architecture decisions, and quality checks can give teams a clear way to review work produced with AI.</p>
+          <details>
+            <summary>See an illustrative example</summary>
+            <dl>
+              <dt>Requirement</dt>
+              <dd>Export a report. The product spec defines who can export it and which fields belong in the file.</dd>
+              <dt>Evidence</dt>
+              <dd>The review checks that a permitted user can export the report and that an unauthorized user cannot.</dd>
+              <dt>Decision</dt>
+              <dd>If the permission test is missing, send the work back with the specific gap. A reviewer decides when the evidence is sufficient.</dd>
+            </dl>
+          </details>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="wrap" id="about" aria-labelledby="about-title">
+    <div class="bio">
+      <h2 id="about-title">About me</h2>
+      <p>I’ve spent much of my career building and leading teams that run critical technology. I care about giving technical leads the context and room to make decisions, and working with Product when those decisions affect reliability, cost, or what customers can do.</p>
+      <p>My next chapter takes me deeper into payments with Koywe’s Core team. Outside work, I enjoy music and analog synthesizers.</p>
+    </div>
+  </section>
+</main>
+<footer id="contact">
+  <div class="wrap">
+    <h2>Get in touch</h2>
+    <p>I’m interested in exchanging ideas with people building distributed engineering teams and working on platforms, payments, or AI-assisted delivery.</p>
+    <div class="links"><a href="https://www.linkedin.com/in/erick-carvallo/">Connect on LinkedIn</a><a href="https://github.com/erickcp">Find me on GitHub</a></div>
+  </div>
+</footer>
+</body>
+</html>
