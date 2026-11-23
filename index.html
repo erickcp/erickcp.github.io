@@ -3,24 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Erick Carvallo | Engineering Leadership</title>
-  <meta name="description" content="Erick Carvallo leads engineering teams and works across platform engineering, critical payments systems, and AI-assisted software delivery.">
-  <meta name="theme-color" content="#142b2c">
+  <title>Erick Carvallo | Technology Leadership</title>
+  <meta name="description" content="Erick Carvallo leads engineering teams and works hands-on in platform engineering, core payments, and AI-assisted software delivery.">
+  <meta name="theme-color" content="#202329">
   <link rel="canonical" href="https://erickcp.github.io/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Erick Carvallo | Engineering Leadership">
-  <meta property="og:description" content="Engineering leadership for critical systems. Selected work in platform operations and AI-assisted software delivery.">
+  <meta property="og:title" content="Erick Carvallo | Technology Leadership">
+  <meta property="og:description" content="Technology leadership and hands-on engineering across critical platforms, payments, and AI-assisted software delivery.">
   <meta property="og:url" content="https://erickcp.github.io/">
   <style>
     :root {
       color-scheme: light;
-      --paper: #faf9f6;
-      --ink: #142b2c;
-      --muted: #455957;
-      --accent: #096352;
-      --line: #c4d1c9;
-      --light: #e9f1ec;
-      --mint: #bfe8cf;
+      --paper: #faf9f7;
+      --ink: #202329;
+      --muted: #50545c;
+      --accent: #6b501f;
+      --line: #d8d5cf;
+      --light: #efede8;
+      --brass: #c9b185;
+      --dark-muted: #d1d4d9;
+      --dark-line: #5b5f67;
     }
 
     * { box-sizing: border-box; }
@@ -34,20 +36,20 @@
     .wrap { width: min(100% - 3rem, 70rem); margin-inline: auto; }
     a { color: var(--accent); text-underline-offset: .22em; }
     a:hover { text-decoration-thickness: .14em; }
-    :focus-visible { outline: 3px solid #ae4a22; outline-offset: 4px; }
-    .dark :focus-visible { outline-color: var(--mint); }
+    :focus-visible { outline: 3px solid #795d29; outline-offset: 4px; }
+    .dark :focus-visible { outline-color: var(--brass); }
 
     h1, h2, h3 { line-height: 1.1; margin: 0; letter-spacing: -.035em; }
     h1, h2 { font-family: Georgia, serif; font-weight: 500; }
-    h1 { font-size: clamp(2.6rem, 6vw, 5rem); max-width: 18ch; }
+    h1 { font-size: clamp(2.6rem, 6vw, 5rem); max-width: 19ch; }
     h2 { font-size: clamp(2rem, 4vw, 3.35rem); }
     h3 { font-size: clamp(1.5rem, 3vw, 2.15rem); }
     p { margin: .8rem 0 0; }
     .label { font-size: .9rem; font-weight: 700; color: var(--accent); margin: 0 0 .8rem; }
 
     .dark { background: var(--ink); color: var(--paper); }
-    .dark a, .dark .label { color: var(--mint); }
-    header { border-bottom: 1px solid #476763; }
+    .dark a, .dark .label { color: var(--brass); }
+    header { border-bottom: 1px solid var(--dark-line); }
     .bar, nav, .links { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem 1.35rem; }
     .bar { justify-content: space-between; padding-block: .85rem; }
     .bar a, .links a { display: inline-block; padding-block: .4rem; }
@@ -61,10 +63,10 @@
       gap: clamp(1.75rem, 6vw, 5rem);
       align-items: end;
     }
-    .lead { font-size: clamp(1.1rem, 2vw, 1.3rem); max-width: 54ch; color: #d5e1db; margin: 1.3rem 0 1.7rem; }
-    .hero .action { display: inline-block; border-radius: .25rem; padding: .6rem 1rem; color: var(--ink); background: var(--mint); font-weight: 700; text-decoration: none; }
-    .hero .action:hover { background: #ddf7e6; }
-    .side { border-left: 1px solid #60817a; padding-left: 1rem; color: #d5e1db; }
+    .lead { font-size: clamp(1.1rem, 2vw, 1.3rem); max-width: 54ch; color: var(--dark-muted); margin: 1.3rem 0 1.7rem; }
+    .hero .action { display: inline-block; border-radius: .25rem; padding: .6rem 1rem; color: var(--ink); background: var(--brass); font-weight: 700; text-decoration: none; }
+    .hero .action:hover { background: #e1cda7; }
+    .side { border-left: 1px solid var(--dark-line); padding-left: 1rem; color: var(--dark-muted); }
     .side div + div { margin-top: 1rem; }
     .side dt { color: var(--paper); }
     .side dd { color: inherit; }
@@ -97,7 +99,7 @@
     @media (max-width: 700px) {
       .wrap { width: min(100% - 2rem, 70rem); }
       .hero-layout, .case { grid-template-columns: minmax(0, 1fr); }
-      .side { display: flex; flex-wrap: wrap; gap: .8rem 1.8rem; border-left: 0; padding: .9rem 0 0; border-top: 1px solid #60817a; }
+      .side { display: flex; flex-wrap: wrap; gap: .8rem 1.8rem; border-left: 0; padding: .9rem 0 0; border-top: 1px solid var(--dark-line); }
       .side div + div { margin-top: 0; }
     }
   </style>
@@ -118,9 +120,9 @@
     <section class="dark hero" aria-labelledby="intro-title">
       <div class="wrap hero-layout">
         <div>
-          <p class="label">Engineering leadership</p>
-          <h1 id="intro-title">I build teams that can make good technical decisions.</h1>
-          <p class="lead">I develop engineering leaders and work with Product to decide what to build, what to improve, and what critical systems need to stay reliable.</p>
+          <p class="label">Technology leadership</p>
+          <h1 id="intro-title">I lead engineering teams and get hands-on with the hard problems.</h1>
+          <p class="lead">I develop technical leaders, work with Product on what to build next, and stay close to the architecture and code that keep critical systems reliable.</p>
           <a class="action" href="#work">Explore my work</a>
         </div>
         <dl class="side">
@@ -136,14 +138,14 @@
         <article class="case" aria-labelledby="falabella-title">
           <div>
             <p class="label">Falabella Financiero · Platform leadership</p>
-            <h3 id="falabella-title">Making room for roadmap work</h3>
-            <p>I led platform teams supporting payments, insurance, and digital banking. Keeping those services running competed for the same engineering time as improving them.</p>
+            <h3 id="falabella-title">Balancing critical operations with roadmap commitments</h3>
+            <p>As a platform manager at Falabella Financiero, I led teams supporting payments, insurance, and digital banking. The same people who kept those services running also had to make time to improve them.</p>
           </div>
           <dl>
             <dt>The decision</dt>
-            <dd>Working with four tech leads, I brought operational workload, platform ownership, and planned work into one view. That gave us a way to discuss roadmap commitments alongside the work required to run the platforms.</dd>
+            <dd>I worked with four tech leads to bring operational workload, platform ownership, and planned work into one view, so we could weigh roadmap commitments against the capacity needed to run the platforms.</dd>
             <dt>What changed</dt>
-            <dd>Tech leads could explain where their capacity was going and show stakeholders what would need to move when a new priority came in. We had a shared basis for prioritization across the teams.</dd>
+            <dd>When a new priority came in, tech leads could show stakeholders where their capacity was going and which commitments would need to move. That gave teams a shared basis for making trade-offs.</dd>
           </dl>
         </article>
 
@@ -158,10 +160,12 @@
             <dl>
               <dt>Requirement</dt>
               <dd>In a fictional reporting tool, finance users can export reports. Other users have read-only access.</dd>
+              <dt>Architecture decision</dt>
+              <dd>The export endpoint enforces access on the server. The agent can propose an implementation and tests for review.</dd>
               <dt>Evidence</dt>
               <dd>The submitted tests show that a finance user can export a report. The test that checks whether a read-only user is blocked is missing.</dd>
               <dt>Review decision</dt>
-              <dd>Return the change with the missing test named explicitly. Revisit the decision once the reviewer has evidence for both paths.</dd>
+              <dd>Return the change with a request for the missing test. A human reviewer makes the approval decision once there is evidence for both paths.</dd>
             </dl>
           </details>
         </article>
@@ -172,8 +176,9 @@
       <div class="wrap">
         <div class="bio">
           <h2 id="about-title">About me</h2>
-          <p>My background spans infrastructure, DevOps, and platform leadership. At Falabella Financiero, I built operating practices around reliability, cloud spending, and developer experience. I also used structured one-on-ones and career plans to help technical leads grow into broader responsibilities.</p>
-          <p>My next chapter takes me deeper into payments with Koywe’s Core team. Outside work, you’ll usually find me listening to records or experimenting with analog synthesizers.</p>
+          <p>I came up through infrastructure and DevOps before leading platform teams at Falabella Financiero. That role taught me how to make decisions at scale and how to recognize when to make the call, when to let a tech lead make it, and when to ask for another perspective.</p>
+          <p>My focus at Koywe is core payments, where architectural decisions and product priorities meet. Alongside that work, I’m pursuing executive studies in AI leadership and growing toward broader responsibility for how technology decisions shape the business.</p>
+          <p>Outside work, you’ll usually find me listening to records or experimenting with analog synthesizers.</p>
         </div>
       </div>
     </section>
